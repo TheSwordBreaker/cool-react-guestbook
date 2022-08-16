@@ -8,7 +8,7 @@ const Messages = () => {
 	if (isLoading) return <div>Fetching messages...</div>;
 
 	return (
-		<div className="flex flex-col gap-4">
+		<div className="flex flex-col gap-6">
 			{messages?.map((msg, index) => {
 				return (
 					<div key={index}>
